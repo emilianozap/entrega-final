@@ -50,13 +50,21 @@
     }
     /*main-card*/
     #card h2{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     
     /*main-contactos*/
     #contactos{
-        flex-direction: column;
-        height: 800px;
+        flex-direction: column-reverse;
+        justify-content: stretch;
+        height: 600px;
+    }
+    #contactos h2{
+        font-size: 40px;
+        
+    }
+    #contactos p{
+        text-align: center;
     }
 
 }
@@ -65,9 +73,7 @@
     #card{
         height: 150vh;
     }
-    .container-card{
-       
-    }
+
     .imagenes{
         
         flex-direction: column;
