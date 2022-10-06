@@ -9,7 +9,7 @@
     background-color: black;
     height: 70px;
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
 }
 .home img{
@@ -17,9 +17,9 @@
 }
 #main{
     background-color: black;
-    margin-top: 70px;
+    margin-top: -60px;
     font-weight: bolder;
-    height: 90vh;
+    height: 100vh;
 }
 .iniciar{
     display: flex;
@@ -76,4 +76,5 @@
     color: black;
     
 }
+
 
