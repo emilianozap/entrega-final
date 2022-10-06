@@ -1,5 +1,5 @@
-@media screen and (max-width: 992px){
-    .navbar ul {
+@media only screen and (max-width: 992px){
+        .navbar ul {
         background-color: black;
         width: 100%;
         height: calc(100vh - 55px);
@@ -69,11 +69,15 @@
 
 }
 @media only screen and (max-width: 576px) and (min-width: 360px){
+      
+  .contenedor{
+    width: auto;
+  }
+    
     /*main-card*/
-    #card{
-        height: 150vh;
+    main{
+        max-width: 480vh;
     }
-
     .imagenes{
         
         flex-direction: column;
