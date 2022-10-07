@@ -168,7 +168,6 @@ color: white;
 #hero .hero_slider span{
     color: black;
     font-weight: bolder;
-    width: 500px;
     text-align: center;
     font-size: 40px;
 
@@ -222,7 +221,7 @@ color: white;
 #about h2{
     padding-bottom: 20px;
     color: white;
-    width: 400px;
+    margin: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
@@ -363,6 +362,7 @@ font-size: 20px;
 }
 .maps{
     border-radius: 20px;
+    
 
 }
 

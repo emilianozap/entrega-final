@@ -70,14 +70,34 @@
 }
 @media only screen and (max-width: 576px) and (min-width: 360px){
       
-  .contenedor{
-    width: auto;
-  }
-    
-    /*main-card*/
-    main{
-        max-width: 480vh;
+    /*main-hero*/
+   
+    .hero_slider{
+        text-align: center;
+        margin: 10%;
     }
+    .hero_slider span{
+        margin: 10px;
+        
+    }
+        /*main-about*/
+    #about h2{
+        margin: 10%;
+        margin-top: 20%;
+        
+        padding: 0%;
+    }
+        /*main-card*/
+    #card{
+        height: 170vh;
+    }
+    #card h2{
+        margin: 10%;
+        margin-top: 20%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
     .imagenes{
         
         flex-direction: column;
@@ -91,19 +111,28 @@
         transform: scale(1.2);
     }
     /*main-contactos*/
+    #contactos{
+        height: 130vh;
+        
+    }
     #contactos h1{
         text-align: center;
-        margin-bottom: 20px;
+        margin-top: 20%;
     
     }
     #contactos p{
         text-align: center;
+        margin: 10%;
+        padding: 0%;
     }
     .contactos-links{
-       margin: 20%; 
-       margin-top: 0%;
-       margin-bottom: 0%;
+       margin: 10%; 
+    
       
+    }
+    .maps{
+        width: 80%;
+        height: 300px;
     }
     
     /*footer*/
@@ -113,10 +142,15 @@
         height: 300px;
         
         
+        
     }
     .footer-links{
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    footer p{
+        margin: 10%;
     }
 
 }
