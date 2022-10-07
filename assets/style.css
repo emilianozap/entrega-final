@@ -162,8 +162,9 @@ color: white;
 }
 #hero .hero_slider h1{
     font-size: 60px;
-    color: black;
+    color: rgb(226, 13, 13);
     text-transform: uppercase;
+    font-style: italic;
 }
 #hero .hero_slider span{
     color: black;
@@ -362,7 +363,7 @@ font-size: 20px;
 }
 .maps{
     border-radius: 20px;
-    
+
 
 }
 

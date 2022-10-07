@@ -89,7 +89,7 @@
     }
         /*main-card*/
     #card{
-        height: 170vh;
+        height: 160vh;
     }
     #card h2{
         margin: 10%;
@@ -112,12 +112,12 @@
     }
     /*main-contactos*/
     #contactos{
-        height: 130vh;
+        height: 110vh;
         
     }
     #contactos h1{
         text-align: center;
-        margin-top: 20%;
+
     
     }
     #contactos p{
@@ -146,7 +146,7 @@
     }
     .footer-links{
         flex-direction: column;
-        gap: 4gi0px;
+        gap: 40px;
         margin-top: 50px;
     }
     footer p{
