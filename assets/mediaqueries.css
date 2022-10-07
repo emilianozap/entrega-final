@@ -146,7 +146,7 @@
     }
     .footer-links{
         flex-direction: column;
-        gap: 10px;
+        gap: 4gi0px;
         margin-top: 50px;
     }
     footer p{
